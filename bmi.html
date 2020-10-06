@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bmi.css">
+	<title>BMI</title>
+</head>
+<body>
+
+			<form >
+					<div class="input-group mb-3">
+					 <div class="input-group-prepend">
+   					 <span class="input-group-text" id="basic-addon1">Weight</span>
+  					</div>
+  				
+					<input type="number"  id="weight" >
+					<select id="selectWeight" type ="number" >
+						<option selected="selected" disabled="disabled">Select Weight</option>
+						<option  value="0" >Kg</option>
+						<option value="1" id="lbs">Lbs</option>
+					</select>
+				</div>
+				<div class="input-group mb-3">
+					 <div class="input-group-prepend">
+   					 <span class="input-group-text" id="basic-addon1">Height</span>
+  					</div>
+				
+					<input type="number"  id="height" >
+					 <select id="selectHeight" type="number">
+						<option option selected="selected" disabled="disabled">Select Height</option>	
+						<option  value="0">m</option>
+						<option value="1">inches</option>
+						<option value="2">feet/inches</option>
+					</select>
+				</div>
+				<input id="para" type="text" disabled="disabled"></input>
+			 </form> 
+			<button class="btn btn-outline-primary" id="btn">bmi</button>
+
+	
+
+	<script src="bmi.js"></script>
+</body>
+</html>

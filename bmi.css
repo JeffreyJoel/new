@@ -1,0 +1,20 @@
+body{
+	margin: 1rem;
+}
+#btn{
+	margin-left: 3.5rem;
+}
+/*#btn:hover{
+	background-color: red;
+}*/
+#weight, #height, #selectHeight, #selectWeight{
+	/*border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: ;
+	outline:none;*/
+}
+#para{
+	width: 4rem
+	height:auto;
+}
